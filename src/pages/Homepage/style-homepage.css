@@ -1,0 +1,12 @@
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 400px;
+    background-color: black;
+}
