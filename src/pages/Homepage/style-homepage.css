@@ -1,12 +1,22 @@
-.container-fluid {
+/* .container-fluid {
     display: flex;
     flex-direction: column;
-}
+    width: 100%;
+} */
 
 .navbar {
     display: flex;
-    flex-direction: row;
-    width: 40px;
-    height: 400px;
-    background-color: black;
+    flex-direction: column;
+    align-content: center;
+    min-width: 50px;
+    min-height: 100px;
+    /* background-color: black; */
+}
+#menu_screen > .row {
+    min-height: 100vh;
+    min-width: 210vh;
+}
+
+.flex-fill {
+    flex:1 1 auto;
 }
